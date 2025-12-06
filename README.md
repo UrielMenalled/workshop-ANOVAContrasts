@@ -1,0 +1,3 @@
+Contrasts in R can really impact the results of Type III ANOVAs. When you have categorical variables, by default, R sets uses the reference group of the categorical variable as the grand mean. This is against the fundamental assumption of ANOVA, which is that you are comparing "grand means". The issue mainly arises when you run Type III ANOVAs with interacting categorical variables using the car::Anova() function. Very niche, I know...
+
+Despite the specificity of the issue, it's a big deal! So, you should definitely check out this workshop! If only just to justify the time I spend coding it 😳
